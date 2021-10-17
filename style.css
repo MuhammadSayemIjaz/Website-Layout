@@ -6,7 +6,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 95px;
+    height: 105px;
 }
 .Nav-Footer{
     margin-top: 15px;
@@ -21,9 +21,25 @@ header{
 #left-content{
     margin-top: 15px;
     background-color: lightgray;
-    width: 25%;
+    width: 20%;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+#main-content{
+    width: 60%;
+    margin: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+#right-content{
+    margin: 15px 0px 0px 15px;
+    background-color: lightgray;
+    width: 20%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
