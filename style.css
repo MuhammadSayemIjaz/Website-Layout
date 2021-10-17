@@ -1,5 +1,28 @@
+*{
+    font-family: monospace;
+}
 header{
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+}
+.Nav-Footer{
+    margin-top: 15px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-content{
+    display: flex;
+}
+#left-content{
+    margin-top: 15px;
+    background-color: lightgray;
+    width: 25%;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
